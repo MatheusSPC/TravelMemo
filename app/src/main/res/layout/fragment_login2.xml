@@ -6,6 +6,17 @@
     tools:context=".view.LoginFragment">
 
 
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/white"
+        android:scaleType="centerCrop"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height=""
 
 
     <!-- Container que se sobrepõe ao background -->
@@ -34,8 +45,6 @@
             android:padding="10dp"
             android:layout_marginBottom="10dp"
             android:hint="E-mail"/>
-
-
 
         <EditText
             android:id="@+id/editSenhaAcesso"
