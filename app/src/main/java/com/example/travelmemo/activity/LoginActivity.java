@@ -78,6 +78,7 @@ public class LoginActivity extends Activity {
 
     }*/
 
+    }
     private void alertDialogShow(final String mensagem){
 
         AlertDialog.Builder alert = new AlertDialog.Builder(LoginActivity.this);
@@ -93,5 +94,4 @@ public class LoginActivity extends Activity {
         alert.create().show();
 
     }
-
 }
